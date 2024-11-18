@@ -42,6 +42,7 @@ const Projects = () => {
             width: '100%',
             marginBottom: '10%'
         }}
+        id='projects'
     >
         <Box sx={{width: '70%'}}>
 

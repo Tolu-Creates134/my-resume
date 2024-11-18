@@ -18,6 +18,7 @@ const Skills = () => {
             marginBottom: '10%'
         }}
         className='Skills Section'
+        id='skills'
     >   
         <Box className='Skills Content' sx={{width: '70%', height: '100%'}}>
             <Box>

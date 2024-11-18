@@ -36,6 +36,7 @@ const Certifications = () => {
             width: '100%',
         }}
         className='Certification Section'
+        id='certifications'
     >
         <Box sx={{width: '70%'}}>
             <Box>
