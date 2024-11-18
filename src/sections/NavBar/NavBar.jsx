@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Typography, Stack, Box, IconButton, Drawer, AppBar, Toolbar, Button, styled } from '@mui/material';
+import { Link } from 'react-scroll';
+import { Typography, Box, IconButton, Drawer, AppBar, Toolbar, Button, styled } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import colors from '../../styles/colors';
 
@@ -72,15 +73,22 @@ const NavBar = () => {
 
                 </Drawer>
 
-
-                
                 {/*Navigation for large devices*/}
                 <Box sx={{display:{xs: 'none',sm: 'flex'}}}>
-                    <Button color='inherit' size='large'><StyledSpan>01.</StyledSpan>&nbsp;&nbsp; About Me</Button>
-                    <Button color='inherit' size='large'><StyledSpan>02.</StyledSpan>&nbsp;&nbsp; Skills</Button>
-                    <Button color='inherit' size='large'><StyledSpan>03.</StyledSpan>&nbsp;&nbsp; Projects</Button>
-                    <Button color='inherit' size='large'><StyledSpan>04.</StyledSpan>&nbsp;&nbsp; Certifications</Button>
+                    <Link to='about-me' smooth={true} duration={500} offset={-100}>
+                        <Button color='inherit' size='large'><StyledSpan>01.</StyledSpan>&nbsp;&nbsp; About Me</Button>
+                    </Link>
+                    <Link to='skills' smooth={true} duration={500} offset={-100}>
+                        <Button color='inherit' size='large'><StyledSpan>02.</StyledSpan>&nbsp;&nbsp; Skills</Button>
+                    </Link>
+                    <Link to='projects' smooth={true} duration={500} offset={-100}>
+                        <Button color='inherit' size='large'><StyledSpan>03.</StyledSpan>&nbsp;&nbsp; Projects</Button>
+                    </Link>
+                    <Link to='certifications' smooth={true} duration={500} offset={-100}>
+                        <Button color='inherit' size='large'><StyledSpan>04.</StyledSpan>&nbsp;&nbsp; Certifications</Button>
+                    </Link>
                 </Box>
+
             </Toolbar>
 
         </AppBar>
