@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
-const SocialsNav = () => {
+const SocialsNav = ({direction}) => {
 
 
   return (
@@ -14,15 +14,46 @@ const SocialsNav = () => {
             spacing={2}
             justifyContent='center'
             alignItems='center'
+            direction={direction}
         >
-            <IconButton color='primary' href="https://facebook.com" target="_blank">
-                <LinkedInIcon fontSize="large"/>
+            <IconButton 
+                sx={{
+                    color: colors.textSecondary,
+                    '&:hover': {
+                        color: colors.secondary, // Text color on hover
+                    },
+                    transition: 'color 0.6s ease',
+                }} 
+                href="https://www.linkedin.com/in/tolu-abbass/" 
+                target="_blank"
+            >
+                <LinkedInIcon sx={{ fontSize: '3.2rem' }} fontSize="large"/>
             </IconButton>
-            <IconButton color='primary' href="https://facebook.com" target="_blank">
-                <GitHubIcon fontSize="large"/>
+            <IconButton 
+                sx={{
+                    color: colors.textSecondary,
+                    '&:hover': {
+                    color: colors.secondary, // Text color on hover
+                    },
+                    transition: 'color 0.6s ease',
+                }} 
+                href="https://github.com/Tolu-Creates134?tab=repositories" 
+                target="_blank"
+            >
+                <GitHubIcon sx={{ fontSize: '3.2rem' }} fontSize="large"/>
             </IconButton>
-            <IconButton color='primary' href="https://facebook.com" target="_blank">
-                <InstagramIcon fontSize="large"/>
+            <IconButton 
+                sx={{
+                    color: colors.textSecondary,
+                    '&:hover': {
+                        color: colors.secondary, // Text color on hover
+                    },
+                    transition: 'color 0.6s ease',
+                }} 
+                href="https://www.instagram.com/everything.dev/" 
+                target="_blank"
+            >
+                <InstagramIcon sx={{ fontSize: '3.2rem' }} fontSize="large"/>
             </IconButton>
         </Stack>
     </Box>

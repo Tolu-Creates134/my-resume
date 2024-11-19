@@ -61,7 +61,6 @@ const Certifications = () => {
             </Box>
 
         </Box>
-        
     </Box>
 
   )
