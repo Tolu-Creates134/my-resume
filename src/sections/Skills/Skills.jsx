@@ -25,7 +25,7 @@ const Skills = () => {
                 <SectionHeading title={'My Skills'}/>
             </Box>
 
-            <Box sx={{ width: '100%', display: 'flex', flexWrap: 'wrap'}}>
+            <Box sx={{ width: '100%', display: 'flex', flexWrap: 'wrap', gap: '0.5rem'}}>
                 {
                     mySkills.map((skill) => (
                         <Tab key={skill} title={skill} />

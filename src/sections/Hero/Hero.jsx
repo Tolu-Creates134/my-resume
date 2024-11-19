@@ -60,11 +60,15 @@ const Hero = () => {
                     I'm passionate about building innovative software solutions and exploring the limitless possibilities of cloud technology.
                 </Typography>
                 <CTA/>
+                <Box sx={{display: {xs: 'block', sm: 'none'}}}>
+                    <SocialsNav direction={'row'}/>
+                </Box>
+
             </Stack>
         </Box>
-        <Box sx={{position: 'fixed',top: '30%',right: '2%'}}>
+        <Box sx={{position: 'fixed',top: '30%',right: '2%', display: {xs: 'none', sm: 'block'}}}>
             <VerticalLine/>
-            <SocialsNav/>
+            <SocialsNav direction={'column'}/>
             <VerticalLine/>
         </Box>
 
