@@ -22,7 +22,7 @@ This project was inspired by the Cloud Resume Challenge, which I came across fro
 
 Building this project allowed me to combine my knowledge of front-end development with cloud technologies.
 
-##Features
+## Features
 
 - Fully responsive design to adapt to all screen sizes and devices
 - Material UI components for a sleek and professional appearance
@@ -30,7 +30,7 @@ Building this project allowed me to combine my knowledge of front-end developmen
 - GitHub Actions pipeline for seamless deployment automation
 - Sections highlighting skills, projects, and contact details
 
-##Technologies Used
+## Technologies Used
 
 - React: Framework for building the website's front end.
 - Material UI: Library for component-based styling and responsiveness.
