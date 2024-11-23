@@ -1,12 +1,11 @@
 import React from 'react'
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
 import SectionHeading from '../../components/SectionHeading/SectionHeading'
 import Tab from '../../components/Tab/Tab'
 
 const Skills = () => {
 
     const mySkills = ['React JS', 'Redux', 'HTML', 'CSS', 'C#', 'API', 'Azure', 'JavaScript']
-
 
   return (
     <Box 
