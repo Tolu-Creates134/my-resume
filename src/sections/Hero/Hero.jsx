@@ -1,6 +1,5 @@
 import React from 'react'
 import { Typography, Box, Stack } from "@mui/material";
-import { display } from '@mui/system';
 import colors from '../../styles/colors';
 import Typewriter from 'typewriter-effect'
 import SocialsNav from '../../components/SocialNav/SocialsNav';
@@ -12,7 +11,7 @@ const Hero = () => {
   return ( // xs sm md 
     <Box
         sx={{
-            height:'80vh',  //90vh laptop size
+            height:{xs: '90vh', sm: '80vh'},  //90vh for small devices & 80vh for sm and up 
             justifyContent: "center",
             alignItems: "flex-start",
             display: "flex",

@@ -17,7 +17,7 @@ const NavBar = () => {
   }));
 
   return (
-    <Box sx={{height: '20vh',}}>
+    <Box sx={{height: {xs:'15vh', sm: '20vh'}}}> {/* 15vh for small devices and 20vh for sm and up */}
         <AppBar
             sx={{
                 boxShadow: 'none',
