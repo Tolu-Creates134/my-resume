@@ -34,7 +34,7 @@ jobs:
           inlineScript: |
             az storage blob upload-batch \
               --source build \
-              --destination ${{ secrets.AZURE_CONTAINER_NAME }} \
+              --destination '$web' \
               --account-name ${{ secrets.AZURE_STORAGE_ACCOUNT }}
         env:
           AZURE_STORAGE_KEY: ${{ secrets.AZURE_STORAGE_KEY }}
