@@ -43,6 +43,7 @@ const Projects = () => {
             marginBottom: '10%'
         }}
         id='projects'
+        className='Project Section'
     >
         <Box sx={{width: '70%'}}>
 
