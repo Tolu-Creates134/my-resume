@@ -34,6 +34,7 @@ const Certifications = () => {
             justifyContent: "center",
             display: "flex",
             width: '100%',
+            paddingBottom: '3rem'
         }}
         className='Certification Section'
         id='certifications'
