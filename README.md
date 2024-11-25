@@ -32,9 +32,18 @@ Building this project allowed me to combine my knowledge of front-end developmen
 
 ## Technologies Used
 
-- React: Framework for building the website's front end.
-- Material UI: Library for component-based styling and responsiveness.
-- Azure Blob Storage: For hosting static files.
-- GitHub Actions: For creating an automated CI/CD pipeline.
-- HTML5 & CSS3: Foundational technologies for web development.
+- React: Framework for building the website's front end
+- Material UI: Library for component-based styling and responsiveness
+- Azure Blob Storage: For hosting static files
+- GitHub Actions: For creating an automated CI/CD pipeline
+- HTML5 & CSS3: Foundational technologies for web development
+
+## Hosting and Deployment
+
+The portfolio website is hosted on Azure Blob Storage with static website hosting enabled. Here's how it works:
+
+- Code changes are pushed to the master branch on GitHub
+- A GitHub Actions pipeline triggers the npm run build command to create the production-ready build folder
+- The pipeline uploads the contents of the build folder to the $web container in Azure Blob Storage
+- Changes are instantly available at the production URL
 
