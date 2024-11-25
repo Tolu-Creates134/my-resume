@@ -1,7 +1,7 @@
 # Portfolio
 A personal portfolio project inspired by the Cloud Resume Challenge. This project showcases my skills, creativity, and the ability to build and deploy a modern, responsive website using cutting-edge technologies.
 
-![Project Screenshot](public/images/homepage-mockup)
+![Project Screenshot](public/images/homepage-mockup.png)
 
 
 ## Table of Contents
