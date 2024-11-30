@@ -50,3 +50,12 @@ The portfolio website is hosted on Azure Blob Storage with static website hostin
 - The pipeline uploads the contents of the build folder to the $web container in Azure Blob Storage
 - Changes are instantly available at the production URL
 
+## Pipeline Workflow
+
+1. On every push to master, GitHub Actions:
+- Installs dependencies.
+- Builds the production-ready files.
+- Uploads the files to Azure Blob Storage.
+
+2.Deployment is automated, eliminating manual steps and speeding up delivery.
+
