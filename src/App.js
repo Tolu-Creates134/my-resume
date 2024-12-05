@@ -8,6 +8,7 @@ import Hero from './sections/Hero/Hero';
 import Skills from './sections/Skills/Skills';
 import Projects from './sections/Projects/Projects';
 import Certifications from './sections/Certifications/Certifications';
+import AboutMe from './sections/AboutMe/AboutMe';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       >
         <NavBar/>
         <Hero/>
+        <AboutMe/>
         <Skills/>
         <Projects/>
         <Certifications/>
