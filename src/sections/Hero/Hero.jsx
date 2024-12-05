@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Typography, Box, Stack } from "@mui/material";
 import colors from '../../styles/colors';
 import Typewriter from 'typewriter-effect'

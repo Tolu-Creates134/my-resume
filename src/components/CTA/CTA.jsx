@@ -5,7 +5,7 @@ import colors from '../../styles/colors';
 import Modal from '@mui/material/Modal';
 import emailjs from 'emailjs-com'
 
-const CTA = ({}) => {
+const CTA = () => {
 
     const [open, setOpen] = useState(false)
     const [formData, setFormData] = useState({ name: '', email: '', enquiry: '' });

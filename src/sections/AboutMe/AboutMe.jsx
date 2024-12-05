@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography, Box, Stack } from "@mui/material";
+import { Typography, Box } from "@mui/material";
 import SectionHeading from '../../components/SectionHeading/SectionHeading';
 
 const AboutMe = () => {
