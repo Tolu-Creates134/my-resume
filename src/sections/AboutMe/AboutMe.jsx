@@ -35,7 +35,7 @@ const AboutMe = () => {
                         Currently, I am part of Avanade, a joint venture between Microsoft and Accenture, where I contribute to the development of large-scale software solutions.
                         <br></br>
                         <br></br>
-                        I have significant experience with Azure Cloud Services, holding two Microsoft certifications and actively working toward my third. My expertise in cloud 
+                        I'm with Azure Cloud Services, holding two Microsoft certifications and actively working toward my third. My expertise in cloud 
                         technologies complements my software engineering background, enabling me to design and deliver efficient, cloud-enabled solutions.
                         <br></br>
                         <br></br>
